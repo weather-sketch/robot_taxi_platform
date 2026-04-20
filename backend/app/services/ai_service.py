@@ -37,7 +37,7 @@ async def _chat_completion(messages: list[dict], temperature: float = 0.3) -> st
             response = await client.chat.completions.create(
                 model=settings.OPENAI_MODEL,
                 messages=messages,
-                temperature=temperature,
+
             )
             return response.choices[0].message.content
         except Exception as e:
