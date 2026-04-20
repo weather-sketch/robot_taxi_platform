@@ -10,10 +10,20 @@ A full-stack web application for managing Robotaxi passenger feedback, including
 ## Features
 
 - **Feedback Management** — Browse, filter, and export passenger feedback with full pagination and search
+<img width="2880" height="1556" alt="image" src="https://github.com/user-attachments/assets/4c51ed3c-c708-4ee3-a0cb-f5a2387afe06" />
+<img width="2880" height="1556" alt="image" src="https://github.com/user-attachments/assets/da57009e-02f8-46c2-9d83-3f2c3c5cd721" />
 - **Ticket System** — Create, assign, and track tickets with SLA monitoring and priority management
+<img width="2880" height="1556" alt="image" src="https://github.com/user-attachments/assets/8d4afeaa-b809-406c-8338-914c9644d800" />
 - **Data Dashboard** — Interactive charts (ECharts) showing trends, distributions, and key metrics
+<img width="2880" height="1556" alt="image" src="https://github.com/user-attachments/assets/a88c9790-66b0-4d54-b80a-eb90ad3e2bd9" />
+<img width="2362" height="1328" alt="image" src="https://github.com/user-attachments/assets/46292e9e-ccc1-446d-b824-a1ba3d32dea2" />
+<img width="2348" height="1410" alt="image" src="https://github.com/user-attachments/assets/4d521330-11c3-422f-9eee-7c364a7a4005" />
 - **AI Analysis** — LLM-powered feedback analysis with categorization, theme extraction, and actionable suggestions
+<img width="2880" height="1556" alt="image" src="https://github.com/user-attachments/assets/f425fabd-3577-4f63-bf3d-04cd3dd5ce0a" />
+<img width="2880" height="1556" alt="image" src="https://github.com/user-attachments/assets/b7cda51e-f419-4e7f-a59e-e3a8169c8e23" />
 - **AI Report Generation** — Automated daily/weekly/monthly operational reports based on dashboard data
+<img width="2880" height="1556" alt="image" src="https://github.com/user-attachments/assets/026d8465-fc17-4277-b0e5-34f10357db69" />
+<img width="2880" height="1556" alt="image" src="https://github.com/user-attachments/assets/19c202e6-071c-4ed6-9753-5d7a108400f9" />
 - **Role-Based Access Control** — 4 roles (admin, supervisor, operator, analyst) with granular permissions
 - **JWT Authentication** — Secure login with token-based auth
 
