@@ -11,6 +11,6 @@ cd ..
 
 # Install frontend dependencies and build
 cd frontend
-npm ci
+npm install
 npm run build
 cd ..
