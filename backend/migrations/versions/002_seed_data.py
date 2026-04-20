@@ -190,9 +190,9 @@ def _insert_feedbacks(feedbacks: list[dict]) -> None:
                     created_at=created,
                     updated_at=resolved_time or created,
                 )
-                .returning(sa.column("id"))
+                
             )
-            ticket_pk = result.scalar()
+            ticket_pk = result.lastrowid
 
             op.execute(
                 ticket_log_table.insert().values(
