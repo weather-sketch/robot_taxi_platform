@@ -35,14 +35,15 @@ const SOURCE_LABELS: Record<string, string> = {
 };
 
 const CATEGORY_COLORS: Record<string, string> = {
-  驾驶行为: "red",
-  接驾体验: "orange",
-  车内环境: "gold",
-  路线规划: "blue",
-  安全感知: "magenta",
-  费用相关: "green",
-  新用户引导: "cyan",
-  其他: "default",
+  驾驶行为: "#003a8c",
+  接驾体验: "#0050b3",
+  车内环境: "#096dd9",
+  路线规划: "#1890ff",
+  安全感知: "#40a9ff",
+  费用相关: "#69c0ff",
+  新用户引导: "#91d5ff",
+  乘坐舒适度: "#bae7ff",
+  其他: "#d6e4ff",
 };
 
 const CITIES = ["武汉", "北京", "上海", "广州", "深圳", "重庆", "长沙", "苏州"];

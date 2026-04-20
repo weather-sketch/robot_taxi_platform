@@ -22,6 +22,8 @@ const { Title } = Typography;
 
 const clickableCard: React.CSSProperties = { cursor: "pointer" };
 
+const BLUE_PALETTE = ["#003a8c", "#0050b3", "#096dd9", "#1890ff", "#40a9ff", "#69c0ff", "#91d5ff", "#bae7ff"];
+
 export default function DashboardPage() {
   const navigate = useNavigate();
   const [overview, setOverview] = useState<DashboardOverview | null>(null);
@@ -76,6 +78,7 @@ export default function DashboardPage() {
   /* ---------- Trend chart ---------- */
   const trendOption = trends
     ? {
+        color: ["#003a8c", "#1890ff", "#69c0ff"],
         tooltip: { trigger: "axis" as const },
         legend: { data: ["差评数", "好评率(%)", "平均评分"] },
         xAxis: {
@@ -119,6 +122,7 @@ export default function DashboardPage() {
   /* ---------- Rating pie ---------- */
   const ratingPieOption = distribution
     ? {
+        color: BLUE_PALETTE,
         tooltip: { trigger: "item" as const },
         series: [
           {
@@ -143,6 +147,7 @@ export default function DashboardPage() {
   /* ---------- Category bar ---------- */
   const categoryBarOption = distribution
     ? {
+        color: ["#1890ff"],
         tooltip: { trigger: "axis" as const },
         xAxis: {
           type: "category" as const,
@@ -169,6 +174,7 @@ export default function DashboardPage() {
   /* ---------- Route distribution bar ---------- */
   const routeBarOption = distribution
     ? {
+        color: ["#096dd9"],
         tooltip: { trigger: "axis" as const },
         xAxis: {
           type: "category" as const,
@@ -231,14 +237,14 @@ export default function DashboardPage() {
               value={overview.positive_rate}
               precision={1}
               suffix="%"
-              prefix={<ArrowUpOutlined style={{ color: "#52c41a" }} />}
+              prefix={<ArrowUpOutlined style={{ color: "#1677ff" }} />}
             />
             <Statistic
               title="差评率"
               value={overview.negative_rate}
               precision={1}
               suffix="%"
-              valueStyle={{ fontSize: 14, color: "#ff4d4f" }}
+              valueStyle={{ fontSize: 14, color: "#003a8c" }}
               prefix={<ArrowDownOutlined />}
             />
           </Card>
@@ -255,7 +261,7 @@ export default function DashboardPage() {
               value={overview.sla_compliance_rate}
               precision={1}
               suffix="%"
-              valueStyle={{ fontSize: 14, color: overview.sla_compliance_rate >= 90 ? "#52c41a" : "#ff4d4f" }}
+              valueStyle={{ fontSize: 14, color: overview.sla_compliance_rate >= 90 ? "#1677ff" : "#003a8c" }}
               prefix={<SafetyOutlined />}
             />
           </Card>

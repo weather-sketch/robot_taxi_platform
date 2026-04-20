@@ -21,10 +21,10 @@ import { feedbackApi, ticketApi, type Feedback, type Ticket } from "../../api/fe
 const { Title, Paragraph } = Typography;
 
 const PRIORITY_COLORS: Record<string, string> = {
-  P0: "red",
-  P1: "orange",
-  P2: "blue",
-  P3: "green",
+  P0: "#003a8c",
+  P1: "#0958d9",
+  P2: "#4096ff",
+  P3: "#91caff",
 };
 
 const STATUS_LABELS: Record<string, string> = {
@@ -35,9 +35,9 @@ const STATUS_LABELS: Record<string, string> = {
 };
 
 const SLA_COLORS: Record<string, string> = {
-  normal: "green",
-  warning: "orange",
-  overdue: "red",
+  normal: "#1677ff",
+  warning: "#69c0ff",
+  overdue: "#003a8c",
 };
 
 const ASSIGNEE_NAMES: Record<string, string> = {

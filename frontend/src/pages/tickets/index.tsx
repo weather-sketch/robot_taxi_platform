@@ -26,17 +26,17 @@ const ASSIGNEE_NAMES: Record<string, string> = {
 };
 
 const PRIORITY_COLORS: Record<string, string> = {
-  P0: "red",
-  P1: "orange",
-  P2: "blue",
-  P3: "green",
+  P0: "#003a8c",
+  P1: "#0958d9",
+  P2: "#4096ff",
+  P3: "#91caff",
 };
 
 const STATUS_MAP: Record<string, { label: string; color: string }> = {
-  pending: { label: "待处理", color: "default" },
-  processing: { label: "处理中", color: "processing" },
-  resolved: { label: "已解决", color: "success" },
-  closed: { label: "已关闭", color: "default" },
+  pending: { label: "待处理", color: "#bae7ff" },
+  processing: { label: "处理中", color: "#1677ff" },
+  resolved: { label: "已解决", color: "#0050b3" },
+  closed: { label: "已关闭", color: "#d6e4ff" },
 };
 
 const SLA_LABELS: Record<string, string> = {
@@ -46,9 +46,9 @@ const SLA_LABELS: Record<string, string> = {
 };
 
 const SLA_COLORS: Record<string, string> = {
-  normal: "green",
-  warning: "orange",
-  overdue: "red",
+  normal: "#1677ff",
+  warning: "#69c0ff",
+  overdue: "#003a8c",
 };
 
 interface TicketFilters {
