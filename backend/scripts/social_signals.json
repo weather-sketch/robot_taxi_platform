@@ -1,0 +1,352 @@
+[
+  {
+    "signal_id": "SS001",
+    "platform": "douyin",
+    "author": "一天八百个情绪的带刺...",
+    "content_summary": "今天被困在萝卜车上将近二十分钟，客服电话一直呼叫无法接通，显示5分钟过来的结果等了很久",
+    "sentiment": "negative",
+    "heat_score": 148,
+    "comment_count": 66,
+    "share_count": 109,
+    "original_url": null,
+    "captured_at": "2026-03-31T20:00:00",
+    "tags": [
+      "困车内",
+      "客服无法接通",
+      "等待时间长"
+    ]
+  },
+  {
+    "signal_id": "SS002",
+    "platform": "xiaohongshu",
+    "author": "Happy鱼520",
+    "content_summary": "你个笨萝卜，1.1公里走了半天还剩9.1公里，问你为什么绕圈圈，你说是为了避开拥堵路段。我让你走最近路线你还不干。结果越绕越远，害得我浪费时间浪费钱，重新打车",
+    "sentiment": "negative",
+    "heat_score": 13,
+    "comment_count": 4,
+    "share_count": 1,
+    "original_url": null,
+    "captured_at": "2026-03-28T14:00:00",
+    "tags": [
+      "绕路",
+      "路线不合理",
+      "浪费时间",
+      "费用"
+    ]
+  },
+  {
+    "signal_id": "SS003",
+    "platform": "douyin",
+    "author": "大猫儿导一下",
+    "content_summary": "萝卜快跑，有点气人。上下车点有规定，不能随意上车，就是在电商大楼的对面",
+    "sentiment": "negative",
+    "heat_score": 305,
+    "comment_count": 398,
+    "share_count": 288,
+    "original_url": null,
+    "captured_at": "2025-08-05T12:00:00",
+    "tags": [
+      "上下车点限制",
+      "不方便"
+    ]
+  },
+  {
+    "signal_id": "SS004",
+    "platform": "xiaohongshu",
+    "author": "武佩",
+    "content_summary": "萝卜快跑体验：缺点：接单慢，等待时间长，上车地点受限必须先确定好！急刹体验感差。优点：安全性非常好，特别遵守交通规则，遇到斑马线直接减速，应对复杂车况比我好",
+    "sentiment": "neutral",
+    "heat_score": 30,
+    "comment_count": 8,
+    "share_count": 5,
+    "original_url": null,
+    "captured_at": "2025-11-21T16:00:00",
+    "tags": [
+      "接单慢",
+      "急刹",
+      "安全性好",
+      "守交规"
+    ]
+  },
+  {
+    "signal_id": "SS005",
+    "platform": "douyin",
+    "author": "支付人-燕子588",
+    "content_summary": "来深圳打车打了一辆无人驾驶的萝卜快跑，最后是我快跑，不然都追不上萝卜快跑",
+    "sentiment": "negative",
+    "heat_score": 1673,
+    "comment_count": 2060,
+    "share_count": 1009,
+    "original_url": null,
+    "captured_at": "2026-03-22T11:00:00",
+    "tags": [
+      "追不上车",
+      "上车困难",
+      "深圳"
+    ]
+  },
+  {
+    "signal_id": "SS006",
+    "platform": "douyin",
+    "author": "海市蜃楼",
+    "content_summary": "萝卜快跑我坐N次了，便宜倒是便宜，就是慢，还有上车点和下车点离下单有点远，再就是网络不好的时候容易把车开进死胡同",
+    "sentiment": "neutral",
+    "heat_score": 58,
+    "comment_count": 12,
+    "share_count": 3,
+    "original_url": null,
+    "captured_at": "2026-02-10T18:30:00",
+    "tags": [
+      "便宜",
+      "慢",
+      "站点远",
+      "网络故障",
+      "死胡同"
+    ]
+  },
+  {
+    "signal_id": "SS007",
+    "platform": "douyin",
+    "author": "幸运李",
+    "content_summary": "有一次看到无人驾驶车掉头逆行，还有一次像喝醉了酒，我是告诉家人别坐无人驾驶汽车，有点可怕",
+    "sentiment": "negative",
+    "heat_score": 3,
+    "comment_count": 2,
+    "share_count": 0,
+    "original_url": null,
+    "captured_at": "2026-02-27T09:15:00",
+    "tags": [
+      "逆行",
+      "安全隐患",
+      "驾驶异常"
+    ]
+  },
+  {
+    "signal_id": "SS008",
+    "platform": "douyin",
+    "author": "小圆子",
+    "content_summary": "这边建议赶时间的朋友千万别坐萝卜快跑，这个笨萝卜它跑不快的！",
+    "sentiment": "negative",
+    "heat_score": 330,
+    "comment_count": 371,
+    "share_count": 53,
+    "original_url": null,
+    "captured_at": "2025-04-02T15:00:00",
+    "tags": [
+      "速度慢",
+      "赶时间不推荐"
+    ]
+  },
+  {
+    "signal_id": "SS009",
+    "platform": "xiaohongshu",
+    "author": "八月再见",
+    "content_summary": "上车的点没有在我设定的位置，而是自定义在了马路斜对面，要跨过跨栏才能上车。真的太慢了，原本20分钟的路程硬是坐了快40分钟。优点：车内真的很干净，音响效果挺好，座椅体验感也不错，行驶中真的很守交规",
+    "sentiment": "neutral",
+    "heat_score": 45,
+    "comment_count": 15,
+    "share_count": 8,
+    "original_url": null,
+    "captured_at": "2026-03-15T13:00:00",
+    "tags": [
+      "上车点偏远",
+      "跨栏",
+      "慢",
+      "车内干净",
+      "守交规"
+    ]
+  },
+  {
+    "signal_id": "SS010",
+    "platform": "xiaohongshu",
+    "author": "文化人",
+    "content_summary": "萝卜快跑的车真够笨的，我叫车定位在幼儿园门口，车停在马路对面隔了很高的防护栏。走过去满头大汗，结果超过三分钟就自动取消订单跑了，都碰到车了他都开走了。没有任何人车互动功能",
+    "sentiment": "negative",
+    "heat_score": 22,
+    "comment_count": 10,
+    "share_count": 6,
+    "original_url": null,
+    "captured_at": "2026-03-23T10:30:00",
+    "tags": [
+      "自动取消",
+      "防护栏",
+      "等待时间短",
+      "无人车互动"
+    ]
+  },
+  {
+    "signal_id": "SS011",
+    "platform": "xiaohongshu",
+    "author": "Shatia",
+    "content_summary": "固定停车点经常更换，我公司本来门口就有停车点的，现在换到步行28分钟的地方去了，谁愿意走啊",
+    "sentiment": "negative",
+    "heat_score": 5,
+    "comment_count": 2,
+    "share_count": 0,
+    "original_url": null,
+    "captured_at": "2025-12-17T08:45:00",
+    "tags": [
+      "停车点更换",
+      "步行距离远"
+    ]
+  },
+  {
+    "signal_id": "SS012",
+    "platform": "xiaohongshu",
+    "author": "久久的赛博日记本",
+    "content_summary": "来武汉终于打卡萝卜快跑。优点：i人友好不会问东问西，车里没异味，可语音呼唤开启座椅按摩，价格跟顺风车类似。缺点：固定停车点不到用户定位处接客，只能等半分钟，不会倒车要绕一大圈，后备箱开启困难，送达位置固定，下车后拖着行李箱走了二十分钟",
+    "sentiment": "neutral",
+    "heat_score": 85,
+    "comment_count": 32,
+    "share_count": 15,
+    "original_url": null,
+    "captured_at": "2025-09-17T14:28:00",
+    "tags": [
+      "i人友好",
+      "等待时间短",
+      "不会倒车",
+      "后备箱",
+      "下车点远",
+      "行李"
+    ]
+  },
+  {
+    "signal_id": "SS013",
+    "platform": "xiaohongshu",
+    "author": "小沪达人Rick",
+    "content_summary": "先说优点：私密性强适合商务人士和情侣，车内个性化服务丰富。缺点：价格略微昂贵实际费用超过专车。最后一个缺点直接劝退：整车减震感太差了，明明是城市平坦大道却带来山间崎岖不平的乘坐感",
+    "sentiment": "neutral",
+    "heat_score": 40,
+    "comment_count": 18,
+    "share_count": 7,
+    "original_url": null,
+    "captured_at": "2026-02-20T17:00:00",
+    "tags": [
+      "私密性好",
+      "价格贵",
+      "减震差",
+      "乘坐感差"
+    ]
+  },
+  {
+    "signal_id": "SS014",
+    "platform": "xiaohongshu",
+    "author": "咸鱼",
+    "content_summary": "我真无语了16分钟的车程开了26分钟，差一点把我搞迟到，一路狂奔到单位1秒钟刚好碰到领导喊大家开周会，差点颜面尽失",
+    "sentiment": "negative",
+    "heat_score": 28,
+    "comment_count": 12,
+    "share_count": 4,
+    "original_url": null,
+    "captured_at": "2026-04-14T08:20:00",
+    "tags": [
+      "迟到",
+      "车速慢",
+      "路程时间翻倍"
+    ]
+  },
+  {
+    "signal_id": "SS015",
+    "platform": "xiaohongshu",
+    "author": "Tulips",
+    "content_summary": "萝卜快跑体验好差。被停在离目的地隔着围墙200米的马路上，实际狂走2公里才能绕进小区。萝卜没有提醒自行修改了目的地，到快下车才发现不能送进小区。开发人员能不能注意：1.不要自行修改目的地 2.变动目的地了一上车就提醒乘客",
+    "sentiment": "negative",
+    "heat_score": 35,
+    "comment_count": 14,
+    "share_count": 9,
+    "original_url": null,
+    "captured_at": "2026-03-30T19:00:00",
+    "tags": [
+      "自动改目的地",
+      "下车点远",
+      "不提醒乘客",
+      "苏州"
+    ]
+  },
+  {
+    "signal_id": "SS016",
+    "platform": "xiaohongshu",
+    "author": "匿名用户",
+    "content_summary": "30分钟的路程用了一个多小时并且还没到，客服介入说遇到故障，然后当场直接把我扔路边。请问如果晚上也这样呢随便把人扔路边，不考虑危不危险。客服只会说抱歉问多了就是一套话术，很失望",
+    "sentiment": "negative",
+    "heat_score": 4,
+    "comment_count": 2,
+    "share_count": 0,
+    "original_url": null,
+    "captured_at": "2026-04-01T22:10:00",
+    "tags": [
+      "中途故障",
+      "扔路边",
+      "安全隐患",
+      "客服态度差"
+    ]
+  },
+  {
+    "signal_id": "SS017",
+    "platform": "xiaohongshu",
+    "author": "匿名用户(广州)",
+    "content_summary": "首先无人是真无人驾驶，加速很快不犹豫，遇到慢车也会顺利绕开。但是上车点非常奇葩在护栏外面，眼睁睁看着车嗖的一下从面前冲了过去差了两百米。下车点也一言难尽，点直接下车显示距离终点过近暂时无法停车，下车点数量有限很多地方不能选",
+    "sentiment": "neutral",
+    "heat_score": 33,
+    "comment_count": 9,
+    "share_count": 19,
+    "original_url": null,
+    "captured_at": "2026-04-14T21:00:00",
+    "tags": [
+      "上车点奇葩",
+      "护栏",
+      "下车点有限",
+      "广州"
+    ]
+  },
+  {
+    "signal_id": "SS018",
+    "platform": "xiaohongshu",
+    "author": "喝醉能吃三碗饭",
+    "content_summary": "一觉起来准备出门，发现常驻的下车点不见了",
+    "sentiment": "negative",
+    "heat_score": 1,
+    "comment_count": 0,
+    "share_count": 0,
+    "original_url": null,
+    "captured_at": "2025-12-19T07:30:00",
+    "tags": [
+      "站点消失",
+      "不稳定"
+    ]
+  },
+  {
+    "signal_id": "SS019",
+    "platform": "xiaohongshu",
+    "author": "久久的赛博日记本",
+    "content_summary": "我当时是半分钟，因为等错地方了，所以我赶去的时候，眼睁睁看着它在那里又跑走了。只能重新叫车",
+    "sentiment": "negative",
+    "heat_score": 2,
+    "comment_count": 1,
+    "share_count": 0,
+    "original_url": null,
+    "captured_at": "2025-12-16T09:00:00",
+    "tags": [
+      "等待时间短",
+      "车走了",
+      "重新叫车"
+    ]
+  },
+  {
+    "signal_id": "SS020",
+    "platform": "douyin",
+    "author": "匿名用户(武汉)",
+    "content_summary": "别坐这个车了，武汉都出事了。它才不傻，有些地方不能停吧，你就是萝卜，快跑",
+    "sentiment": "negative",
+    "heat_score": 200,
+    "comment_count": 80,
+    "share_count": 45,
+    "original_url": null,
+    "captured_at": "2026-03-25T16:00:00",
+    "tags": [
+      "安全事故",
+      "武汉",
+      "抵制"
+    ]
+  }
+]

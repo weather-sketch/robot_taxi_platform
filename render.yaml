@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: robotaxi-feedback-platform
+    runtime: python
+    plan: free
+    buildCommand: bash build.sh
+    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.9"
+      - key: NODE_VERSION
+        value: "20.18.0"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_BASE_URL
+        value: "https://api.openai.com/v1"
+      - key: OPENAI_MODEL
+        value: "gpt-4o-mini"
+      - key: DATABASE_URL
+        value: "sqlite+aiosqlite:///./robotaxi.db"
+      - key: DEBUG
+        value: "false"
+    healthCheckPath: /health
